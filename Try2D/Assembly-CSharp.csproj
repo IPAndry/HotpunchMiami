@@ -56,8 +56,9 @@
     <Compile Include="Assets\Scripts\ClearClickSystem.cs" />
     <Compile Include="Assets\Scripts\AutoClickSystem.cs" />
     <Compile Include="Assets\Scripts\ShopItems.cs" />
-    <Compile Include="Assets\Scripts\ClickSystem.cs" />
     <Compile Include="Assets\Scripts\FaceSmash.cs" />
+    <Compile Include="Assets\Scripts\ClickSystem.cs" />
+    <Compile Include="Assets\Scripts\Shop.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

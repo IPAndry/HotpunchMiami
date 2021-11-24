@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - ClearClickSystem
     - ClickSystem
     - FaceSmash
+    - Shop
     - ShopItems
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -41,7 +42,10 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Shadow
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
@@ -78,33 +82,41 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1514}
+      Script: {instanceID: 1516}
     - Class: 114
-      Script: {instanceID: 1702}
+      Script: {instanceID: 1704}
     - Class: 114
-      Script: {instanceID: 1738}
+      Script: {instanceID: 1740}
     - Class: 114
-      Script: {instanceID: 2202}
+      Script: {instanceID: 2204}
     - Class: 114
-      Script: {instanceID: 2616}
+      Script: {instanceID: 2618}
     - Class: 114
-      Script: {instanceID: 2776}
+      Script: {instanceID: 2778}
     - Class: 114
-      Script: {instanceID: 2992}
+      Script: {instanceID: 2994}
     - Class: 114
-      Script: {instanceID: 3168}
+      Script: {instanceID: 3170}
     - Class: 114
-      Script: {instanceID: 3238}
+      Script: {instanceID: 3240}
     - Class: 114
-      Script: {instanceID: 3350}
+      Script: {instanceID: 3352}
     - Class: 114
-      Script: {instanceID: 4310}
+      Script: {instanceID: 4312}
     - Class: 114
-      Script: {instanceID: 4492}
+      Script: {instanceID: 4352}
     - Class: 114
-      Script: {instanceID: 5396}
+      Script: {instanceID: 4494}
     - Class: 114
-      Script: {instanceID: 5538}
+      Script: {instanceID: 4550}
+    - Class: 114
+      Script: {instanceID: 5398}
+    - Class: 114
+      Script: {instanceID: 5526}
+    - Class: 114
+      Script: {instanceID: 5540}
+    - Class: 114
+      Script: {instanceID: 26050}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -674,6 +686,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 3ca70dc9ce0fe5ff7f487c8c34249ff7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Shop
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
